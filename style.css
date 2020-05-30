@@ -1,0 +1,332 @@
+.jumbotron-background {
+	background-image: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%), url(pics/sean-pollock-203658-unsplash.png);
+	background-size: cover;
+}
+
+.jumbotron-border {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-row {
+	height: 80px;
+}
+
+.hamburger {
+	background-color: transparent;
+	border: none;
+}
+
+.contact-header {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	color: rgba(255,255,255, 0.5);
+}
+
+.email {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	color: #FEE040;
+	text-align: left;
+}
+
+.telephone-icon {
+	opacity: 50%;
+}
+
+.telephone {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-align: right;
+}
+
+.center-row {
+	margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+	.center-row {
+	margin-top: 60px;
+	}
+}
+
+.jumbotron-header {
+	font-family: 'Gilroy';
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+}
+
+.jumbotron-header-desc {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 20px;
+	font-weight: 600;
+	color: rgba(255,255,255, 0.7);
+	max-width: 320px;
+}
+
+.quote-block {
+	max-width: 270px;
+	width: 100%;
+}
+
+.get-quote-button {
+	background-color: #FEE040;
+	border: none;
+}
+
+.get-quote-button:hover {
+	background-color: #ffff00;
+}
+
+.get-quote-button-desc {
+	font-family: 'Gilroy';
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.quote-desc {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.number-statement {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+
+}
+
+.two-parts-background {
+	background: linear-gradient(to right, #FFFFFF, #FFFFFF 50%, #F5F5F5 50%, #F5F5F5);
+}
+
+@media (max-width: 767px) {
+	.two-parts-background {
+		background: linear-gradient(to bottom, #FFFFFF, #FFFFFF 50%, #F5F5F5 50%, #F5F5F5);
+	}
+	.tv-pic {
+		max-width: 350px;
+	}
+}
+
+.left-part {
+	letter-spacing: -0.5px;
+}
+
+.left-part-header {
+	font-family: 'Gilroy';
+	font-size: 28px;
+	font-weight: 800;
+	color: #151515;
+}
+
+.part-description {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 18px;
+	font-weight: 600;
+	color: rgba(112,112,112, 0.7);
+	list-style: none;
+	line-height: 1.2;
+}
+
+.part-description li {
+	margin-bottom: 10px;
+}
+
+.right-part {
+	letter-spacing: -0.5px;
+}
+
+.right-part-header {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 24px;
+	font-weight: 700;
+	color: #151515;
+}
+
+.services-background {
+	background-image: linear-gradient(180deg, rgba(0, 78, 134, 0.9) 0%, rgba(10, 65, 104, 0.9) 100%), url(pics/patrick-tomasso-89367-unsplash.png);
+	background-position: cover;
+}
+
+.services-header {
+	font-family: Bebas Neue;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 20px;
+	color: #FEE040;
+}
+
+.services-header-desc {
+	font-family: 'Gilroy';
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+}
+
+.services-wrapper {
+	overflow: hidden;
+}
+
+.scroll-menu {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+ }
+
+.scroll-menu::-webkit-scrollbar {
+  width: 574px;
+  height: 25px;
+}
+
+.scroll-menu::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(270deg, #FEE040 0%, rgba(254, 224, 64, 0) 100%);
+  background-size: 100% 25%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.service-block {
+	flex: 0 0 auto;
+	margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+	.service-block {
+	margin-right: 25px;
+	}
+}
+
+.service-block:last-child {
+	margin-right: 0;
+}
+
+.services-title {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: -0.5px;
+	color: #FFFFFF;
+}
+
+.services-description {
+	font-family: 'Proxima Nova Cn Lt';
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	color: rgba(255,255,255, 0.7);
+	max-width: 360px;
+}
+
+.more {
+	font-family: 'Bebas Neue';
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 7px;
+	color: #FEE040;
+}
+
+.more:hover {
+	color: #ffff00;
+	text-decoration: none;
+}
+
+
+
+
+.steps-header {
+	font-family: 'Bebas Neue';
+	font-size: 80px;
+	letter-spacing: 5px;
+	background: -webkit-linear-gradient(#60B6FF, rgba(0, 78, 134, 0.8));
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	line-height: 1.2; 
+}
+
+@media (max-width: 768px) {
+	.steps-header {
+		font-size: 55px;
+	}
+}
+
+.steps-header-description {
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-weight: 700;
+	color: #505050;
+	max-width: 550px;
+}
+
+@media (max-width: 768px) {
+	.steps-header-description {
+		font-size: 16px;
+	}
+}
+
+.step1-pic {
+	background-image: url("pics/henry-co-180108-unsplash.png");
+	background-size: cover;
+}
+
+.step1-container {
+	font-family: 'Proxima Nova Cn Lt';
+	background-color: #F5F5F5;
+}
+
+.step-number {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #151515;
+	background-color: #FEE040;
+}
+
+.step1-title {
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	color: #151515;
+}
+
+.step1-description {
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	color: rgba(51,51,51, 0.7);
+}
+
+.quote-pic {
+	border-radius: 100%;
+	border: 5px solid #FFFFFF;
+	-webkit-box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2); /* Firefox 3.5 - 3.6 */
+	box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.step1-quote {
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	color: rgba(80,80,80, 0.7);
+}
+
+.step1-cite {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	color: rgba(21,21,21, 0.7);
+}
